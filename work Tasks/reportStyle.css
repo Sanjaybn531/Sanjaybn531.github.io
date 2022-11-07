@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(r1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    font-weight: bold;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: right;
+    height: 70px;
+}
+
+.logo{
+    color: chartreuse;
+    font-size-adjust: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: right;
+    padding-top: 10px;
+}
+
+.menu{
+    color: white;
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li:hover{
+    color: #ff7200;
+}
+
+ul li a{
+    text-decoration: solid;
+    color: orange;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.photo{
+    width: 1300px;
+    height: auto;
+    margin: 20px;
+    color: white;
+    position: relative;
+}
+.photo img{
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: auto;
+    left: 100px;
+    padding: 25px; 
+    justify-items: center;
+    align-items: center; 
+}
+
+form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, white(0,0,0.5)50%);
+    position: absolute;
+    /*top: -20;*/
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form label{
+    color: white;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: white;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text{
+    width: 1200px;
+    height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    font: bold;
+    font-size: 25px;
+    padding-left: 500px;
+    padding-right: 300px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+
+table, th, td{
+    width: 1300px;
+    height: 10px;
+    color: white;
+    position: relative;
+    top: auto;
+   /* left: 20px; */
+    border: 1px solid white;
+   /* border-radius: 10px; */
+    padding: 40px;
+}
+
+.footer{
+    width: 1200px;
+    height: 10px;
+    position: absolute;
+    font: bold;
+    font-size: 25px;
+    padding-left: 500px;
+    padding-right: 300px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
